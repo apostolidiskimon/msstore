@@ -1,5 +1,18 @@
 .containermenu{
-    background-color: rgb(182, 182, 182);
+    background: rgba(172, 172, 172, 0.527);
+        width: 90%;
+        display: block;
+        padding: 0.7rem 1.7rem;
+        z-index: 10;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 1rem;
+        display: flex;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+
+    
 
 }
 .containermenu ul li img {
@@ -7,10 +20,12 @@
     margin:-1.9rem;
     position:fixed;
     right: 5rem;
-    
+            filter: drop-shadow(1px 1px 1px #08080a);
 }
 
-
+.containermenu ul li img:hover {
+    pointer-events: none;
+}
 .containermenu ul{
         right: 5rem;
         margin: 0;
@@ -25,10 +40,10 @@
 }
 .containermenu ul li :hover {
     display: inline-flex;
-    padding: 2rem;
+    padding: 1rem;
         background-color: rgb(216, 213, 209);
         border-radius: 2rem;
-        transition-duration: 1.5s;
+        transition-duration: 1s;
 }
 .containermenu input[type=text] {
     float: right;
@@ -39,4 +54,14 @@
     font-size: 17px;
     border-radius:4rem;
             transition-duration: 1.5s;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 60px;
 }
