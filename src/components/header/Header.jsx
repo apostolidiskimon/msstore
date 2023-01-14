@@ -6,22 +6,22 @@ const Header = () => {
     <div className="containermenu">
       <ul>
         <li>
-          <a href="#">My Account</a>
+          <a href="#header">My Account</a>
           <audio id="beep" preload="auto">
             <source src="audio/beep.mp3"></source>
           </audio>
         </li>
         <li>
-          <a href="#">Game Pass</a>
+          <a href="#header">Game Pass</a>
         </li>
         <li>
-          <a href="#">Stuff Picks</a>
+          <a href="#header">Stuff Picks</a>
         </li>
         <li>
-          <a href="#">Browse Categories</a>
+          <a href="#header">Browse Categories</a>
         </li>
         <li>
-          <a href="#">Sale</a>
+          <a href="#header">Sale</a>
         </li>
         <li>
           <input type="text" placeholder="Search.."></input>
