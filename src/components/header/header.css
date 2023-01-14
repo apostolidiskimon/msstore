@@ -1,0 +1,42 @@
+.containermenu{
+    background-color: rgb(182, 182, 182);
+
+}
+.containermenu ul li img {
+    width: 10%;
+    margin:-1.9rem;
+    position:fixed;
+    right: 5rem;
+    
+}
+
+
+.containermenu ul{
+        right: 5rem;
+        margin: 0;
+        padding: 0;
+
+}
+.containermenu ul li{
+    right: 5rem;
+    display:inline-flex;
+    padding:2rem;
+    transition: var(--transition);
+}
+.containermenu ul li :hover {
+    display: inline-flex;
+    padding: 2rem;
+        background-color: rgb(216, 213, 209);
+        border-radius: 2rem;
+        transition-duration: 1.5s;
+}
+.containermenu input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius:4rem;
+            transition-duration: 1.5s;
+}

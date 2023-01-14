@@ -13,10 +13,10 @@
 }
 
 :root {
-    --color-bg: #6894B5;
-    --color-bg-variant: #618596a8;
+    --color-bg: #c2c2c2;
+    --color-bg-variant: #969696a8;
     --color-primary: #b6d5e1;
-    --color-primary-variant: #fafafa8f;
+    --color-primary-variant: #1dd83cd5;
     --color-white: #ffff;
     --color-light: #e2eff1;
 
@@ -91,12 +91,12 @@ section>h2 {
 }
 
 a {
-    color: var(--color-primary);
+    color: white;
     transition: var(--transition);
 }
 
 a:hover {
-    color: var(--color-white);
+    color:rgb(90, 90, 90);
 }
 
 .btn {
