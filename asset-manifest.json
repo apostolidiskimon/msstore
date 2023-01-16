@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/msstore/static/css/main.b94b413c.css",
-    "main.js": "/msstore/static/js/main.684e9f29.js",
+    "main.css": "/msstore/static/css/main.dfddc5e1.css",
+    "main.js": "/msstore/static/js/main.52ad4080.js",
     "static/media/4.jpg": "/msstore/static/media/4.fb0fff26707efeb7e586.jpg",
     "static/media/1.png": "/msstore/static/media/1.8bfaed9370cc7b6fc872.png",
     "static/media/3.jpg": "/msstore/static/media/3.8ec182317c991802e381.jpg",
     "static/media/2.jpg": "/msstore/static/media/2.efdd917e0439791710b4.jpg",
     "static/media/logo2.png": "/msstore/static/media/logo2.c8535d0475d866894dfd.png",
     "index.html": "/msstore/index.html",
-    "main.b94b413c.css.map": "/msstore/static/css/main.b94b413c.css.map",
-    "main.684e9f29.js.map": "/msstore/static/js/main.684e9f29.js.map"
+    "main.dfddc5e1.css.map": "/msstore/static/css/main.dfddc5e1.css.map",
+    "main.52ad4080.js.map": "/msstore/static/js/main.52ad4080.js.map"
   },
   "entrypoints": [
-    "static/css/main.b94b413c.css",
-    "static/js/main.684e9f29.js"
+    "static/css/main.dfddc5e1.css",
+    "static/js/main.52ad4080.js"
   ]
 }
