@@ -25,6 +25,7 @@
 
 .containermenu ul li img:hover {
     pointer-events: none;
+        text-decoration: none;
 }
 .containermenu ul{
         right: 5rem;
