@@ -15,7 +15,7 @@ const Header = () => {
           <a href="#header">Game Pass</a>
         </li>
         <li>
-          <a href="#header">Stuff Picks</a>
+          <a href="#pickscontainer">Stuff Picks</a>
         </li>
         <li>
           <a href="#header">Browse Categories</a>

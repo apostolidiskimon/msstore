@@ -65,4 +65,76 @@
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky+.content {
     padding-top: 60px;
+}/*---------------------MEDIA QUERIES(MEDIUM SCREEN DEVICES)===========*/
+@media screen and (max-width:1024px) {
+
+
+.responsive{
+margin-top:20rem;
+padding-top: 20rem;    
 }
+
+    .about__container {
+        
+        grid-template-columns: 2fr;
+        gap:0;
+    }
+    .about__me{
+        width:50%;
+        margin:2rem auto 4rem;
+    }
+
+    .about__contnet p{
+        margin:1rem 0 1.5rem;
+        color:red;
+    }
+}
+/* IPHONE */
+@media (min-width: 844) {
+.responsive {
+        position:top;
+    }
+
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__contnet {
+        text-align: center;
+    }
+
+    .about__contnet p {
+        margin: 1.5rem 0;
+        font-size: red;
+    }
+}
+
+/*---------------------MEDIA QUERIES(SMALL SCREEN DEVICES)===========*/
+@media screen and (max-width:600px) {
+
+    .containermenu {
+            height:5rem;
+            display:inline-flex;
+            background-color: grey;
+            font-size: smaller;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            
+        }
+       
+    .input{
+        display:none;
+    }
+    
+}
+
+
+
+

@@ -7,43 +7,36 @@ import img4 from "../../Assets/4.jpg";
 
 const Slider = () => {
   return (
-    <div
-      id="carouselExampleControls"
-      class="carousel-slide"
-      data-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src={img1} alt="RESIDENT EVIL 4" />
-        </div>
-        <div class="carousel-item">
-          <img src={img2} alt="2" />
-        </div>
-        <div class="carousel-item">
-          <img src={img3} alt="3" />
-        </div>
-        <div class="carousel-item">
-          <img src={img4} alt="4" />
+    <div className="contain">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img className="d-block w-100" src={img1} alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img className="d-block w-100" src={img2} alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img className="d-block w-100" src={img3} alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img className="d-block w-100" src={img4} alt="First slide" />
+          </div>
         </div>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
   );
 };
